@@ -84,12 +84,6 @@ $(document).ready(function(){
 	});
 
 	loadPage("personal_intro.html");
-
-	$("#secondpane .menu_nva:eq(0)").show();
-	$("#secondpane h3.menu_head").mouseover( function(){
-		$(this).addClass("current").next("div.menu_nva").slideDown(400).siblings("div.menu_nva").slideUp("slow");
-		$(this).siblings().removeClass("current");
-	});
 });
 
 </script>
@@ -115,7 +109,7 @@ $(document).ready(function(){
 	<a href="#" >够级</a>
 	<a href="#">拖拉机</a>
 	<a href="#">华容道</a>
-	<a href="#">月历</a>
+	<a href="#" onclick="loadPage('womencalendar.html')">月历</a>
 	<a href="#">五子棋</a>
 </div>
 
