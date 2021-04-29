@@ -1,4 +1,12 @@
-﻿.round_button {
+﻿.interface {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.round_button {
 	border: 1px solid;
 	display: block;
 	font: bold 12px/25px Arial, sans-serif;
